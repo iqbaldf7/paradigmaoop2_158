@@ -19,6 +19,7 @@ public:
 	}
 };
 
+
 class lia : public seseorang {
 public:
 	void pesan() {
