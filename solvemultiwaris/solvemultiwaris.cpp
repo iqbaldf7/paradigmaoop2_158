@@ -24,9 +24,9 @@ public:
 	}
 };
 
-
 ss budi : public pekerja, public pelajar {
 public:
+
 
 	budi(int pUmur) :
 		pekerja(pUmur),
