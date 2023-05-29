@@ -25,7 +25,15 @@ public:
 };
 
 
-class pelajar : virtual public orang {
+ss budi : public pekerja, public pelajar {
+public:
+
+	budi(int pUmur) :
+		pekerja(pUmur),
+		pelajar(pUmur),
+		orang(pUmur)		// Hal ini dapat dilakukan jika menggunakan virtual
+	{
+		cout <<class pelajar : virtual public orang {
 public:
 
 	pelajar(int pUmur) :
@@ -35,15 +43,8 @@ public:
 	}
 };
 
-class budi : public pekerja, public pelajar {
-public:
 
-	budi(int pUmur) :
-		pekerja(pUmur),
-		pelajar(pUmur),
-		orang(pUmur)		// Hal ini dapat dilakukan jika menggunakan virtual
-	{
-		cout << "Budi dibuat\n" << endl;
+cla "Budi dibuat\n" << endl;
 
 	}
 };
